@@ -1,3 +1,5 @@
+package dzien1;
+
 import java.math.BigDecimal;
 
 public class ZadaniaZmienne {

@@ -1,6 +1,8 @@
+package dzien1;
+
 public class Zmienne {
     public static void main(String[] args) {
-        System.out.println("jakiś tekst z klasy Zmienne\n");
+        System.out.println("jakiś tekst z klasy dzien1.Zmienne\n");
         String text1 = "\tTo jest zmienna zawierająca tekst";
         System.out.println(text1);
         System.out.println("\\n");
