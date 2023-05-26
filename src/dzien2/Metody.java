@@ -20,11 +20,11 @@ public class Metody {
         System.out.println(dodawanie(7,6));
     }
 
-    private static void wypiszNazweKlasy(){
+    public static void wypiszNazweKlasy(){
         System.out.println("Metody");
     }
 
-    private static int mnozonyPrzezDwa(int liczba){
+    public static int mnozonyPrzezDwa(int liczba){
         int wynik;
         if (liczba == 0) {
             wynik = 0;
@@ -35,15 +35,15 @@ public class Metody {
         return wynik;
     }
 
-    private static int mnozenie(int a, int b){
+    public static int mnozenie(int a, int b){
         return a*b;
     }
     // overload - przeładowanie metody
-        private static int mnozenie(){
+        public static int mnozenie(){
         return 0;
     }
 
-    private static int dodawanie(int... ints){
+    public static int dodawanie(int... ints){
         int wynik = 0;
         for(int x: ints){
             wynik = wynik +x;
